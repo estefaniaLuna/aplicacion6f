@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/Un Dato 4 Día de la tierra.jpg','imagenes/MEDIO-AMBIENTE.jpg1_.jpg','imagenes/3r6.jpeg','imagenes/calentamiento.jpeg','imagenes/contaminacion.jpeg','imagenes/dia-mundial-de-la-tierra-3.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <font size="5">
+     <center><h1>Dia de La Tierra</h1></center>
+     </font>
+     <center>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:850px;height:400px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+ </center>
+  </div>
+
+  
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>¿Qué es el Día de La Tierra? </h2>
+    <p>Se muestra la información</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Cuidado del Medio Ambiente</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Calentamiento Global</h2>
+      <p>Muestra la Información</p>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>La Contaminación</h2>
+      </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Mi Comunidad</h2>
+      </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Más Información</h2>
+      </a>
+   </li>
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+     <h4>App5</h4>
+     <h4>Luna Romero Gloria Estefania</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1><b>Día de La Tierra</b></h1>
+  </div>
+ <div data-role="content" align="center">
+  <div>
+     <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra.</p>
+<div>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/dia-mundial-de-la-tierra-3.jpg',1)"><img src="imagenes/Un_Dato_4_Dia_de_la_tierra.jpg" width="70%" height="70%" id="Image20"></a>
+  </div>
+<br>
+<center><h4>Historia:</h4></center>
+<p>En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana.Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.
+
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.</p>
+</p>
+<div>
+<img src="imagenes/Tierra.jpg" width="90%" height="70%">
+</div>
+<h2>¿Por qué se celebra?</h2>
+<p>La intensión es sensibilizar a la humanidad de que es parte del planeta Tierra y sus huellas marcarán el destino del mundo, por eso reducir (el consumo), reciclar y reutilizar objetos es la forma en que cada uno día a día puede colaborar para evitar la contaminación ambiental.</p>
+<div>
+<img src="imagenes/MEDIO.png" width="80%" height="40%">
+</div>
+  </div>
+ </div>
+<div data-role="footer" data-theme="a">
+  <h4>Aplicacion Cinco, GELR</h4>
+  </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Medio Ambiente</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <p>El medio ambiente es el conjunto de componentes físicos, químicos, biológicos, de las personas o de la sociedad en su conjunto.Comprende el conjunto de valores naturales, sociales y culturales existentes en un lugar y en un momento determinado, que influyen en la vida del ser humano y en las generaciones futuras. Es decir, no se trata solo del espacio en el que se desarrolla la vida, sino que también comprende seres vivos, objetos, agua, suelo, aire y las relaciones entre ellos, así como elementos tan intangibles como la cultura</p>
+ <br>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image01','','imagenes/MEDIO-AMBIENTE.jpg1_.jpg',1)"><img src="imagenes/dia-mundial-del-medio-ambiente-5.jpg" width="261" height="300" id="Image01"></a>
+ <br>
+ <div data-role="collapsible" data-content-theme="false">
+   <h2>Regla de las Tres "R"</h2>
+   <p>La regla de las tres erres, también conocida como las tres erres de la ecología o simplemente 3R, es una propuesta sobre hábitos de consumo, popularizada por la organización ecologista Greenpeace, que pretende desarrollar hábitos como el consumo responsable. Este concepto hace referencia a estrategias para el manejo de residuos que buscan ser más sustentables con el medio ambiente y específicamente dar prioridad a la reducción en el volumen de residuos generados.</p>
+<div>
+<img src="imagenes/rrr.png" width="90%" height="20%">
+</div>   
+<h4>¿Qué Significan?</h4>
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image02','','imagenes/3r6.jpeg',1)"><img src="imagenes/rrrr.jpg" width="431" height="187" id="Image02"></a>
+<br>
+<h2>REDUCIR</h2>
+<p>Si reducimos el problema, disminuimos el impacto en el medio ambiente. Los problemas de concienciación, habría que solucionarlos empezando por esta erre. La reducción puede realizarse en 2 niveles: reducción del consumo de bienes o de energía.</p>
+<b>El Objetivo sería:</b>
+<li>Reducir o eliminar la cantidad de materiales destinados a un uso único (por ejemplo, los embalajes).</li>
+<li>Adaptar los aparatos en función de sus necesidades (por ejemplo poner lavadoras y lavavajillas llenos y no a media carga).</li>
+<li>Reducir pérdidas energéticas o de recursos: de agua, desconexión de aparatos eléctricos en stand by, conducción eficiente, desconectar transformadores, etc.</li>
+<div>
+<img src="imagenes/reducir.png" width="60%" height="20%">
+</div> 
+<h2>RECICLAR</h2>
+<P>Es un proceso cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior utilizaciónes decir someter materiales usados o desperdicios a un proceso de transformación o aprovechamiento para que puedan ser nuevamente utilizados.</P>
+<div>
+<img src="imagenes/logo_reciclar.jpeg" width="60%" height="20%">
+</div>
+<h2>REUTILIZAR</h2>
+<p> Ésta se basa en reutilizar un objeto para darle una segunda vida útil. Todos los materiales o bienes pueden tener más de una vida útil, bien sea reparándolos para un mismo uso o con imaginación para un uso diferente.
+<BR>
+<BR>
+Ejemplos: Utilizar la otra cara de las hojas impresas, rellenar botellas.
+<BR>
+<BR>
+Las botellas desechables se pueden convertir en ladrillos ecológicos, si en su interior se les ponen todas las bolsas de plástico que ya no se usan. Las cajitas o frascos de PVC, metal o plástico se pueden pintar o decorar con técnicas de decoupage y utilizarse nuevamente ahora para guardar distintos elementos. El papel usado se puede transformar en pulpa y crear nuevas hojas para escribir.</p>
+<div>
+<img src="imagenes/REUTILIZAR.jpeg" width="80%" height="40%">
+</div>
+ </div>
+ </div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Cinco, GELR</h4>
+ </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Calentamiento Global</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <p> El cambio climático futuro y los impactos asociados serán distintos en una región a otra alrededor del globo.Los efectos anticipados incluyen un aumento en las temperaturas globales, una subida en el nivel del mar, un cambio en los patrones de las precipitaciones y una expansión de los desiertos subtropicales.Se espera que el calentamiento sea mayor en la tierra que en los océanos y el más acentuado ocurra en el Ártico, con el continuo retroceso de los glaciares, el permafrost y la banquisa. Otros efectos probables incluyen fenómenos meteorológicos extremos más frecuentes, tales como olas de calor, sequías, lluvias torrenciales y fuertes nevadas;acidificación del océano y extinción de especies debido a regímenes de temperatura cambiantes. Entre sus impactos humanos significativos se incluye la amenaza a la seguridad alimentaria por la disminución del rendimiento de las cosechas y la pérdida de hábitat por inundación.</p>
+ <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/calentamiento.jpeg',1)"><img src="imagenes/calentamiento_global.jpeg" width="275" height="183" id="Image19"></a> </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h2>Causas</h2>
+  <h4>Gases de Efecto Invernadero</h4>
+  <p>En la Tierra, las cantidades naturales de gases de efecto invernadero tienen un efecto de calentamiento medio de aproximadamente 33 °C.Sin la atmósfera, la temperatura promedio de la Tierra estaría bien bajo el punto de congelación del agua.Los principales gases de efecto invernadero son el vapor de agua (causante de alrededor de 36-70 % del efecto invernadero); el dióxido de carbono (CO2, 9-26 %), el metano (CH4, 4-9 %) y el ozono (O3, 7,3 %).Las nubes también afectan el balance radiativo a través de los forzamientos de nube similares a los gases de efecto invernadero.La quema de combustibles fósiles ha producido alrededor de las tres cuartas partes del aumento en el CO2 por actividad humana en los últimos 20 años. El resto de este aumento se debe principalmente a los cambios en el uso del suelo, especialmente la deforestación.</p>
+  <div>
+ <img src="imagenes/efecto_invernadero.jpeg" width="50%" height="50%">
+ </div>
+ <h4>Aerosoles y Hollín</h4>
+ <p>El hollín puede enfriar o calentar la superficie, dependiendo de si está suspendido o depositado. El hollín atmosférico absorbe directamente la radiación solar, lo que calienta la atmósfera y enfría la superficie. En áreas aisladas con alta producción de hollín, como la India rural, las nubes marrones pueden enmascarar tanto como el 50 % del calentamiento de la superficie por gases de efecto invernadero.Cuando se deposita, especialmente sobre los glaciares o el hielo de las regiones árticas, el menor albedo de la superficie también puede calentar directamente la superficie.Las influencias de las partículas, incluido el carbono negro, son más acusadas en las zonas tropicales y subtropicales, particularmente en Asia, mientras que los efectos de los gases de efecto invernadero son dominantes en las regiones extratropicales y el hemisferio sur.</p>
+  <div>
+ <img src="imagenes/hollin.jpeg" width="70%" height="30%">
+ </div>
+ <h4>Actividad Solar</h4>  
+ <p>el Sol sea el causante del cambio climático reciente proviene de observar como han cambiado las temperaturas a diferentes niveles en la atmósfera de la Tierra.Los modelos y las observaciones muestran que el calentamiento de efecto invernadero resulta en el calentamiento de la atmósfera inferior (troposfera), pero el enfriamiento de la atmósfera superior (estratosfera).El agotamiento de la capa de ozono por refrigerantes químicos también ha dado lugar a un fuerte efecto de enfriamiento en la estratosfera. Si el Sol fuera responsable del calentamiento observado, se esperaría el calentamiento tanto de la troposfera como de la estratosfera.</p>
+  <div>
+ <img src="imagenes/solar.jpeg" width="70%" height="30%">
+ </div>
+ <h4>Variaciones en la Órbita de la Tierra</h4>
+ <p>La inclinación del eje de la Tierra y la forma de su órbita alrededor del Sol varían lentamente durante decenas de miles de años y son una fuente natural de cambio climático al modificar la distribución estacional y latitudinal de la insolación.
+<br>
+Durante los últimos miles de años, este fenómeno contribuyó a una lenta tendencia hacia el enfriamiento en las latitudes altas del hemisferio norte durante el verano, la que se invirtió debido al calentamiento inducido por los GEI durante el siglo xx.
+<br>
+Variaciones en los ciclos orbitales pueden iniciar un nuevo periodo glaciar en el futuro, aunque la fecha de esto depende de las concentraciones de GEI además del forzamiento orbital. No se prevé un nuevo periodo glaciar dentro de los próximos 50 000 años si las concentraciones de CO2 atmosférico continúan sobre las 300 ppm.</p>
+  <div>
+ <img src="imagenes/orbita.jpeg" width="70%" height="30%">
+ </div>
+</div>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Cinco, GELR</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Contaminación</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <p>La contaminación es la introducción de sustancias en un medio que provocan que este sea inseguro o no apto para su uso.El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+<br>
+Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.
+<br>
+La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.), los residuos urbanos, el petróleo, o las radiaciones ionizantes. Todos estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático.</p>
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image05','','imagenes/contaminacion.jpeg',1)"><img src="imagenes/conta.jpeg" width="300" height="168" id="Image05"></a><br>
+<div data-role="collapsible" data-content-theme="false">
+  <h2>Tipos de Contaminación</h2>
+<h4>Contaminación Atmosférica</h4>
+<p>Consiste en la liberación de sustancias químicas y partículas en la atmósfera alterando su composición y suponiendo un riesgo para la salud de las personas y de los demás seres vivos. Los gases contaminantes del aire más comunes son el monóxido de carbono, el dióxido de azufre, los clorofluorocarbonos y los óxidos de nitrógeno producidos por la industria y por los gases producidos en la combustión de los vehículos. Los fotoquímicos como el ozono y el esmog se aumentan en el aire por los óxidos del nitrógeno e hidrocarburos y reaccionan a la luz solar. El material particulado o el polvo contaminante en el aire se mide por su tamaño en micrómetros, y es común en erupciones volcánicas. La contaminación atmosférica puede tener un carácter local, cuando los efectos ligados al foco de emisión afectan solo a las inmediaciones del mismo, o un carácter global, cuando las características del contaminante afectan al equilibrio del planeta y zonas muy distantes a los focos emisores, ejemplos de esto son la lluvia ácida y el calentamiento global.</p>
+<div>
+ <img src="imagenes/conta_atmos.jpeg" width="70%" height="30%">
+ </div>
+ <h4>Contaminación del Agua</h4>
+ <p>Se da por la liberación de residuos y contaminantes que drenan a las escorrentías y luego son transportados hacia ríos, penetrando en aguas subterráneas o descargando en lagos o mares. Por derrames o descargas de aguas residuales, eutrofización o descarga de basura. O por liberación descontrolada del gas de invernadero CO2 que produce la acidificación de los océanos. Los desechos marinos son desechos mayormente plásticos que contaminan los océanos y costas, algunas veces se acumulan en alta mar como en la gran mancha de basura del Pacífico Norte. Los derrames de petróleo en mar abierto por el hundimiento o fugas en petroleros y algunas veces derrames desde el mismo pozo petrolero.</p>
+ <div>
+ <img src="imagenes/conta_agua.jpeg" width="70%" height="30%">
+ </div>
+ <h4>Contaminación del Suelo</h4>
+ <p>Ocurre cuando productos químicos son liberados por un derrame o filtraciones sobre y bajo la tierra. Entre los contaminantes del suelo más significativos se encuentran los hidrocarburos como el petróleo y sus derivados, los metales pesados frecuentes en baterías, el Metil tert-butil éter (MTBE),13 los herbicidas y plaguicidas generalmente rociados a los cultivos industriales y monocultivos y organoclorados producidos por la industria. También los vertederos y cinturones ecológicos que entierran grandes cantidades de basura de las ciudades. Esta contaminación puede afectar a la salud de forma directa y al entrar en contacto con fuentes de agua potable.</p>
+ <div>
+ <img src="imagenes/conta_suelo.jpeg" width="50%" height="40%">
+ </div>
+ <h4>Contaminación Térmica</h4>
+ <p>Es un cambio en la temperatura de un cuerpo de agua causado por la influencia humana, como el uso de agua como refrigerante para plantas de energía nuclear, el aumento artificial de la temperatura puede tener efectos negativos para algunos seres vivos en un hábitat específico ya que cambia las condiciones naturales del medio en que viven. Estos cambios de temperatura provocan un "shock térmico" en los ecosistemas. Por ejemplo: un aumento en la temperatura del agua reduce la solubilidad de oxigeno en ella, además un aumento en el metabolismo de los animales acuáticos que los lleva a consumir más alimento reduciendo los recursos del ecosistema. Varias especies de peces evitan las zona de descarga de aguas calientes provocando una reducción de la biodiversidad en el área afectada.</p>
+  <div>
+ <img src="imagenes/conta_ter.jpeg" width="70%" height="30%">
+ </div>
+ </div>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Cinco, GELR</h4>
+ </div>
+ </div>
+ </div>
+ 
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Contaminación</h1>
+ </div>
+ <div data-role="content" align="center">
+<h2> Problemas de Contaminación</h2>
+<li>Basura Tirada</li>
+<li>Humo por la Quema de basura</li>
+<li>Aerosol de los grafitis</li>
+<br>
+<H2>¿Cómo evitar la contaminación?</H2>
+<li>No quemar basura</li>
+<li>Poner contenedores y clasificar la basura</li>
+<li>No pintar paredes</li>
+<li>No tirar basura</li>
+<br>
+<br>
+<!-- Start WOWSlider.com -->
+<iframe src="visor_2/index.html" style="width:950px;height:220px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Cinco, GELR</h4>
+ </div> 
+ </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Para más Información:</h1>
+ </div>
+ <br>
+ <h2>Visita la página:</h2>
+ <div data-role="content" align="center">
+ <a href="http://www.gob.mx/semarnat">http://www.semarnat.gob.mx/</a>
+ <br>
+ <h4>Video recomendado:</h4>
+ <br>
+ <br>
+ <br>
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I_ls_BuOguE" frameborder="0" allowfullscreen></iframe> 
+
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Cinco, GELR</h4>
+ </div> 
+ </div>
+ 
+ 
+ </div>
+ 
+</div>
+ </body>
+ </html>
